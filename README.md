@@ -72,3 +72,40 @@ python DATE-TIME.py
 ## Repository
 
 This project is created for practicing Python's `datetime` module and basic date/time operations.
+
+
+#python datavisualizationcode
+DataVisualization.py
+
+A simple Python script that demonstrates basic data visualization using pandas, numpy, and matplotlib.
+
+Description
+
+This script creates a bar chart comparing monthly data values across the days of the week using matplotlib.pyplot.
+
+Requirements
+Python 3.x
+pandas
+numpy
+matplotlib
+
+Install the dependencies with:
+
+bash
+pip install pandas numpy matplotlib
+Usage
+
+Run the script from the terminal:
+
+bash
+python DataVisualization.py
+
+This will display a bar chart titled "Bar chart of monthly data", with:
+
+X-axis: Days of the week
+Y-axis: Monthly data values
+Bar color: Red
+Sample Output
+Bar chart created successfully.
+
+A bar chart window will open showing monthly values plotted against each day of the week.
