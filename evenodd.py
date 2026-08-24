@@ -7,8 +7,8 @@ elif num % 2 != 0:
     print(f"{num} odd number")
 
 
-#factorial
 
+#factorial
 
 X = int(input("Enter first factorial number: "))
 
