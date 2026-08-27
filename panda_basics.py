@@ -1,5 +1,6 @@
 import pandas as pd
-
+import numpy as np
+#pandas series 
 marks = pd.Series([85, 72, 91, 68])
 
 print(marks)
@@ -7,7 +8,7 @@ print(marks)
 marks2 = pd.Series([85, 72, 91, 68])
 marks3 = pd.Index([1, 2, 3, 4])
 print(marks2,marks3)
-
+print("=================================")
 data = {'Name': ['om ',
                   'ashish', 
                   'jayyy', 
@@ -39,3 +40,10 @@ df= pd.DataFrame(data)
 replaced_names = df['Name'].str.replace('om', 'kajukatliiiiiiiiiiiiiiiiiiii')
 print("replaced names", replaced_names)
 
+#numpy operations
+print("--------------------------------")
+
+numpy =np.array([4, 8, 15, 16, 23, 42])
+np.sum(numpy)
+print("min value",np.sum
+      (numpy))
