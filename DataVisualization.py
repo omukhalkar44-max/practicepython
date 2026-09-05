@@ -1,5 +1,5 @@
 import pandas as pd
-import numpy as np 
+import numpprac as np 
 import matplotlib.pyplot as plt
 
 days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']

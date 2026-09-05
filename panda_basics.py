@@ -1,5 +1,5 @@
 import pandas as pd
-import numpy as np
+import numpprac as np
 #pandas series 
 marks = pd.Series([85, 72, 91, 68])
 
